@@ -1,0 +1,163 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>disk</title>
+	<style type="text/css" media="all"><!--@import url(../../main.css);--></style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base target="main" />
+</head>
+<body>
+
+<h1><sup>Class</sup> disk</h1>
+
+<div id="view"><a href="../../FULL/classes/disk.html">expand</a></div>
+
+
+<div id="content">
+
+<h2>Description</h2>
+
+<p>A disk in the file system</p>
+
+<ul class="desc">
+	<li>Plural name:
+		<ul>
+			<li><strong>disks</strong></li>
+		</ul>
+	</li>
+	<li>Defined in:
+		<ul>
+			<li><em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em></li>
+		</ul>
+	</li>
+	
+	<li>Inherits from:
+		<ul>
+			<li>
+				
+					<strong><a href="../../Disk-Folder-File_Suite/classes/diskItem.html">diskItem</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../Disk-Folder-File_Suite/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../Standard_Suite/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				
+				
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+	<h2>Properties</h2>
+	<ul>
+		<li>
+			<strong>capacity</strong>
+			(r/o)
+			<em>doubleInteger</em>
+			 -- the total number of bytes (free or used) on the disk
+		</li>
+<li>
+			<strong>ejectable</strong>
+			(r/o)
+			<em>boolean</em>
+			 -- Can the media be ejected (floppies, CD's, and so on)?
+		</li>
+<li>
+			<strong>format</strong>
+			(r/o)
+			<em>ApplePhotoFormat / AppleShareFormat / audioFormat / HighSierraFormat / ISO9660Format / MacOSExtendedFormat / MacOSFormat / MSDOSFormat / NFSFormat / ProDOSFormat / QuickTakeFormat / UDFFormat / UFSFormat / unknownFormat / WebDAVFormat</em>
+			 -- the file system format of this disk
+		</li>
+<li>
+			<strong>freeSpace</strong>
+			(r/o)
+			<em>doubleInteger</em>
+			 -- the number of free bytes left on the disk
+		</li>
+<li>
+			<strong>ignorePrivileges</strong>
+			
+			<em>boolean</em>
+			 -- Ignore permissions on this disk?
+		</li>
+<li>
+			<strong>localVolume</strong>
+			(r/o)
+			<em>boolean</em>
+			 -- Is the media a local volume (as opposed to a file server)?
+		</li>
+<li>
+			<strong>server</strong>
+			(r/o)
+			<em>unicodeText</em>
+			 -- the server on which the disk resides, AFP volumes only
+		</li>
+<li>
+			<strong>startup</strong>
+			(r/o)
+			<em>boolean</em>
+			 -- Is this disk the boot disk?
+		</li>
+<li>
+			<strong>zone</strong>
+			(r/o)
+			<em>unicodeText</em>
+			 -- the zone in which the disk's server resides, AFP volumes only
+		</li>
+	</ul>
+
+
+
+	<h2>Elements</h2>
+	<ul>
+		<li>
+			<strong><a href="../../Disk-Folder-File_Suite/classes/alias.html">aliases</a></strong> -- by
+			<em>name, index, relative, range, test, id</em>
+		</li>
+<li>
+			<strong><a href="../../Disk-Folder-File_Suite/classes/diskItem.html">diskItems</a></strong> -- by
+			<em>name, index, relative, range, test, id</em>
+		</li>
+<li>
+			<strong><a href="../../Disk-Folder-File_Suite/classes/file.html">files</a></strong> -- by
+			<em>name, index, relative, range, test, id</em>
+		</li>
+<li>
+			<strong><a href="../../Disk-Folder-File_Suite/classes/filePackage.html">filePackages</a></strong> -- by
+			<em>name, index, relative, range, test, id</em>
+		</li>
+<li>
+			<strong><a href="../../Disk-Folder-File_Suite/classes/folder.html">folders</a></strong> -- by
+			<em>name, index, relative, range, test, id</em>
+		</li>
+<li>
+			<strong><a href="../../Disk-Folder-File_Suite/classes/item.html">items</a></strong> -- by
+			<em>name, index, relative, range, test, id</em>
+		</li>
+	</ul>
+
+
+
+	<h2>Notes</h2>
+	
+	<ul class="desc">
+		<li>Contained by:
+			<ul>
+				<li>
+					<strong><a href="../../System_Events_Suite/classes/application.html">application</a></strong>
+					(<em><a href="../../index.html#suite_System_Events_Suite">System Events Suite</a></em>)
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+
+</body>
+</html>

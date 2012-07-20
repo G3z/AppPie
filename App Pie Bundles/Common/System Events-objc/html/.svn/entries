@@ -1,0 +1,270 @@
+10
+
+dir
+17
+https://g3z@subversion.assembla.com/svn/apppie/trunk/App%20Pie%20Bundles/Common/System%20Events-objc/html
+https://g3z@subversion.assembla.com/svn/apppie
+
+
+
+2010-12-15T11:14:34.195001Z
+17
+g3z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e020743d-32ae-4ebb-a9b3-9113ca03dfb2
+
+suites.html
+file
+
+
+
+
+2010-11-20T23:22:58.000000Z
+3a271e3b3b3265722ff4628a943897f2
+2010-12-15T11:14:34.195001Z
+17
+g3z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2604
+
+Processes_Suite
+dir
+
+Security_Suite
+dir
+
+System_Events_Suite
+dir
+
+Desktop_Suite
+dir
+
+Login_Items_Suite
+dir
+
+Network_Preferences_Suite
+dir
+
+Movie_File_Suite
+dir
+
+Screen_Saver_Suite
+dir
+
+Property_List_Suite
+dir
+
+Accounts_Suite
+dir
+
+Disk-Folder-File_Suite
+dir
+
+Text_Suite
+dir
+
+Expose_Preferences_Suite
+dir
+
+CD_and_DVD_Preferences_Suite
+dir
+
+classes.html
+file
+
+
+
+
+2010-11-20T23:22:58.000000Z
+cd80cc09fe888f695d0877f9d7f39e64
+2010-12-15T11:14:34.195001Z
+17
+g3z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19752
+
+FULL
+dir
+
+QuickTime_File_Suite
+dir
+
+Folder_Actions_Suite
+dir
+
+commands.html
+file
+
+
+
+
+2010-11-20T23:22:58.000000Z
+b3f72351c16dda9a0072c2caf1df30f2
+2010-12-15T11:14:34.195001Z
+17
+g3z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5941
+
+Power_Suite
+dir
+
+Appearance_Suite
+dir
+
+Audio_File_Suite
+dir
+
+Standard_Suite
+dir
+
+XML_Suite
+dir
+
+index.html
+file
+
+
+
+
+2010-11-20T23:22:58.000000Z
+3d359f989b9b07251f8cb903e3e20d0c
+2010-12-15T11:14:34.195001Z
+17
+g3z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32595
+
+Dock_Preferences_Suite
+dir
+
+main.css
+file
+
+
+
+
+2010-11-20T23:22:58.000000Z
+399a5a5fa0cf0c2e83f19d1f7e6565f4
+2010-12-15T11:14:34.195001Z
+17
+g3z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1384
+
+Type_Definitions
+dir
+

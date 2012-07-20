@@ -1,0 +1,90 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>XMLFile</title>
+	<style type="text/css" media="all"><!--@import url(../../main.css);--></style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base target="main" />
+</head>
+<body>
+
+<h1><sup>Class</sup> XMLFile</h1>
+
+<div id="view"><a href="../../FULL/classes/XMLFile.html">expand</a></div>
+
+
+<div id="content">
+
+<h2>Description</h2>
+
+<p>A file containing data in XML format</p>
+
+<ul class="desc">
+	<li>Plural name:
+		<ul>
+			<li><strong>XMLFiles</strong></li>
+		</ul>
+	</li>
+	<li>Defined in:
+		<ul>
+			<li><em><a href="../../index.html#suite_XML_Suite">XML Suite</a></em></li>
+		</ul>
+	</li>
+	
+	<li>Inherits from:
+		<ul>
+			<li>
+				
+					<strong><a href="../../Disk-Folder-File_Suite/classes/file.html">file</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../Disk-Folder-File_Suite/classes/diskItem.html">diskItem</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../Disk-Folder-File_Suite/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../Standard_Suite/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				
+				
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+	<h2>Properties</h2>
+	<ul>
+		<li>
+			<strong>contents</strong>
+			
+			<em><a href="../../XML_Suite/classes/XMLData.html">XMLData</a></em>
+			 -- the contents of the XML file; elements and properties of the XML data may be accessed as if they were elements and properties of the XML file
+		</li>
+	</ul>
+
+
+
+
+
+	<h2>Notes</h2>
+	
+	<ul class="desc">
+		<li>Contained by:
+			<ul>
+				<li>
+					<strong><a href="../../System_Events_Suite/classes/application.html">application</a></strong>
+					(<em><a href="../../index.html#suite_System_Events_Suite">System Events Suite</a></em>)
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+
+</body>
+</html>

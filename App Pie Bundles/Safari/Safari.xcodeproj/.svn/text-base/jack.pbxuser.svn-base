@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+	042B3DFC0FA3A4C7003C2EC3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	042B3DFD0FA3A4C7003C2EC3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	042B3E250FA3AF6A003C2EC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	042B3E290FA3AF6A003C2EC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	045DAEA50FA4F7A300321D6D /* Safari.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 514}}";
+			sepNavSelRange = "{169, 0}";
+			sepNavVisRange = "{0, 241}";
+		};
+	};
+	045DAEA60FA4F7A300321D6D /* Safari.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 980}}";
+			sepNavSelRange = "{778, 859}";
+			sepNavVisRange = "{643, 1003}";
+		};
+	};
+	045DAEB10FA4F82300321D6D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jack/Documents/Cocoa/App Pie Bundles/Safari/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	045DAEB80FA4F8BC00321D6D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 045DAEA60FA4F7A300321D6D /* Safari.m */;
+		name = "AppMenu.m: 31";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 1102;
+		vrLoc = 202;
+	};
+	045DAEB90FA4F8BC00321D6D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 045DAEA50FA4F7A300321D6D /* Safari.h */;
+		name = "AppMenu.h: 17";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	0473C8A60FA659A50002421E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 045DAEA50FA4F7A300321D6D /* Safari.h */;
+		name = "Safari.h: 12";
+		rLen = 0;
+		rLoc = 169;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 0;
+	};
+	0473C8A70FA659A50002421E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = "/Users/jack/Documents/Cocoa/App Pie Bundles/Safari/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	0473C8AE0FA659A50002421E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 045DAEA60FA4F7A300321D6D /* Safari.m */;
+		name = "Safari.m: 31";
+		rLen = 0;
+		rLoc = 610;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 0;
+	};
+	0473C99C0FA66B060002421E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 045DAEA60FA4F7A300321D6D /* Safari.m */;
+		name = "Safari.m: 39";
+		rLen = 859;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 643;
+	};
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Safari */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Safari */,
+		);
+		codeSenseManager = 042B3DFD0FA3A4C7003C2EC3 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 262564274;
+			PBXWorkspaceStateSaveDate = 262564274;
+		};
+		perUserProjectItems = {
+			042B3E250FA3AF6A003C2EC3 /* PBXTextBookmark */ = 042B3E250FA3AF6A003C2EC3 /* PBXTextBookmark */;
+			042B3E290FA3AF6A003C2EC3 /* PBXTextBookmark */ = 042B3E290FA3AF6A003C2EC3 /* PBXTextBookmark */;
+			045DAEB10FA4F82300321D6D /* PlistBookmark */ = 045DAEB10FA4F82300321D6D /* PlistBookmark */;
+			045DAEB80FA4F8BC00321D6D /* PBXTextBookmark */ = 045DAEB80FA4F8BC00321D6D /* PBXTextBookmark */;
+			045DAEB90FA4F8BC00321D6D /* PBXTextBookmark */ = 045DAEB90FA4F8BC00321D6D /* PBXTextBookmark */;
+			0473C8A60FA659A50002421E /* PBXTextBookmark */ = 0473C8A60FA659A50002421E /* PBXTextBookmark */;
+			0473C8A70FA659A50002421E /* PlistBookmark */ = 0473C8A70FA659A50002421E /* PlistBookmark */;
+			0473C8AE0FA659A50002421E /* PBXTextBookmark */ = 0473C8AE0FA659A50002421E /* PBXTextBookmark */;
+			0473C99C0FA66B060002421E /* PBXTextBookmark */ = 0473C99C0FA66B060002421E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 042B3DFC0FA3A4C7003C2EC3 /* Source Control */;
+		userBuildSettings = {
+			OBJROOT = "/Users/jack/Documents/Cocoa/App Pie Bundles/Safari/build";
+			SYMROOT = "/Users/jack/Library/Application Support/App Pie";
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 514}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* Safari */ = {
+		activeExec = 0;
+	};
+}

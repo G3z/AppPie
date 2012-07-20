@@ -1,0 +1,134 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>exposePreferencesObject</title>
+	<style type="text/css" media="all"><!--@import url(../../main.css);--></style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base target="main" />
+</head>
+<body>
+
+<h1><sup>Class</sup> exposePreferencesObject</h1>
+
+<div id="view"><a href="../../FULL/classes/exposePreferencesObject.html">expand</a></div>
+
+
+<div id="content">
+
+<h2>Description</h2>
+
+<p>user's expose and dashboard mouse and key preferences</p>
+
+<ul class="desc">
+	
+	<li>Defined in:
+		<ul>
+			<li><em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em></li>
+		</ul>
+	</li>
+	
+	<li>Inherits from:
+		<ul>
+			<li>
+				
+					<strong><a href="../../Disk-Folder-File_Suite/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../Standard_Suite/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				
+				
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+	<h2>Properties</h2>
+	<ul>
+		<li>
+			<strong>allWindowsShortcut</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/shortcut.html">shortcut</a></em>
+			 -- the key and mouse binding shortcuts for showing the all application windows
+		</li>
+<li>
+			<strong>applicationWindowsShortcut</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/shortcut.html">shortcut</a></em>
+			 -- the key and mouse binding shortcuts for showing the current application windows
+		</li>
+<li>
+			<strong>bottomLeftScreenCorner</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/screenCorner.html">screenCorner</a></em>
+			 -- the bottom left screen corner
+		</li>
+<li>
+			<strong>bottomRightScreenCorner</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/screenCorner.html">screenCorner</a></em>
+			 -- the bottom right screen corner
+		</li>
+<li>
+			<strong>dashboardShortcut</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/shortcut.html">shortcut</a></em>
+			 -- the key and mouse binding shortcuts for showing the dashboard
+		</li>
+<li>
+			<strong>showDesktopShortcut</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/shortcut.html">shortcut</a></em>
+			 -- the key and mouse binding shortcuts for showing the desktop
+		</li>
+<li>
+			<strong>showSpacesShortcut</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/shortcut.html">shortcut</a></em>
+			 -- the key and mouse binding shortcuts for showing spaces
+		</li>
+<li>
+			<strong>spacesPreferences</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/spacesPreferencesObject.html">spacesPreferencesObject</a></em>
+			 -- the spaces preferences
+		</li>
+<li>
+			<strong>topLeftScreenCorner</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/screenCorner.html">screenCorner</a></em>
+			 -- the top left screen corner
+		</li>
+<li>
+			<strong>topRightScreenCorner</strong>
+			(r/o)
+			<em><a href="../../Expose_Preferences_Suite/classes/screenCorner.html">screenCorner</a></em>
+			 -- the top right screen corner
+		</li>
+	</ul>
+
+
+
+
+
+	<h2>Notes</h2>
+	
+	<ul class="desc">
+		<li>Contained by:
+			<ul>
+				<li>
+					<strong><a href="../../System_Events_Suite/classes/application.html">application</a></strong>
+					(<em><a href="../../index.html#suite_System_Events_Suite">System Events Suite</a></em>)
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+
+</body>
+</html>

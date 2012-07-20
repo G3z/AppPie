@@ -1,0 +1,110 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>screenCorner</title>
+	<style type="text/css" media="all"><!--@import url(../../main.css);--></style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base target="main" />
+</head>
+<body>
+
+<h1><sup>Class</sup> screenCorner</h1>
+
+<div id="view"><a href="../../Expose_Preferences_Suite/classes/screenCorner.html">reduce</a></div>
+
+
+<div id="content">
+
+<h2>Description</h2>
+
+<p>a screen corner location for a specific expose or dashboard feature</p>
+
+<ul class="desc">
+	
+	<li>Defined in:
+		<ul>
+			<li><em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em></li>
+		</ul>
+	</li>
+	
+	<li>Inherits from:
+		<ul>
+			<li>
+				
+					<strong><a href="../../FULL/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				 &#8594; 
+					<strong><a href="../../FULL/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				
+				
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+	<h2>Properties</h2>
+	<ul>
+		<li>
+			<strong>class_</strong>
+			(r/o)
+			<em>typeClass</em>
+			 -- The class of the object.
+		</li>
+<li>
+			<strong>properties</strong>
+			
+			<em>record</em>
+			 -- All of the object's properties.
+		</li>
+<li>
+			<strong>id_</strong>
+			(r/o)
+			<em>unicodeText</em>
+			 -- the unique ID of the item
+		</li>
+<li>
+			<strong>name</strong>
+			
+			<em>unicodeText</em>
+			 -- the name of the item
+		</li>
+<li>
+			<strong>activity</strong>
+			
+			<em>allWindows / applicationWindows / dashboard / disableScreenSaver / none / showDesktop / showSpaces / sleepDisplay / startScreenSaver</em>
+			 -- activity for a specific screen corner
+		</li>
+<li>
+			<strong>modifiers</strong>
+			
+			<em>command / control / none / option / shift</em>
+			 -- keyboard modifiers used for a specific screen corner, passed as string or list
+		</li>
+	</ul>
+
+
+
+
+
+	<h2>Notes</h2>
+	
+	<ul class="desc">
+		<li>Contained by:
+			<ul>
+				<li>
+					<strong><a href="../../FULL/classes/exposePreferencesObject.html">exposePreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em>)
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+
+</body>
+</html>

@@ -1,0 +1,1185 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>System Events</title>
+	<style type="text/css" media="all"><!--@import url(main.css);--></style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base target="main" />
+</head>
+<body>
+
+<!-- summary of application dictionary -->
+
+<a name="home"></a>
+<h1><sup>Application</sup> <span>System Events</span></h1>
+
+<div id="content">
+
+<p><code>/System/Library/CoreServices/System Events.app</code></p>
+
+
+
+	<h2>
+		<a name="suite_Standard_Suite"></a>
+		Standard Suite
+	</h2>
+
+	<p>Common classes and commands for most applications.</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_application__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/classes/application.html">application</a></strong>
+			 -- An application's top level scripting object.
+		</li>
+<li>
+			<a name="class_color__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/classes/color.html">color</a></strong>
+			 -- A color.
+		</li>
+<li>
+			<a name="class_document__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/classes/document.html">document</a></strong>
+			 -- A document.
+		</li>
+<li>
+			<a name="class_item__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/classes/item.html">item</a></strong>
+			 -- A scriptable object.
+		</li>
+<li>
+			<a name="class_window__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/classes/window.html">window</a></strong>
+			 -- A window.
+		</li>
+		</ul>
+
+	
+
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_close__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/close.html">close</a></strong>
+			 -- Close an object.
+		</li>
+<li>
+			<a name="command_count__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/count.html">count</a></strong>
+			 -- Return the number of elements of a particular class within an object.
+		</li>
+<li>
+			<a name="command_delete__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/delete.html">delete</a></strong>
+			 -- Delete an object.
+		</li>
+<li>
+			<a name="command_duplicate__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/duplicate.html">duplicate</a></strong>
+			 -- Copy object(s) and put the copies at a new location.
+		</li>
+<li>
+			<a name="command_exists__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/exists.html">exists</a></strong>
+			 -- Verify if an object exists.
+		</li>
+<li>
+			<a name="command_get__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/get.html">get</a></strong>
+			 -- Get the data for an object.
+		</li>
+<li>
+			<a name="command_make__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/make.html">make</a></strong>
+			 -- Make a new object.
+		</li>
+<li>
+			<a name="command_move__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/move.html">move</a></strong>
+			 -- Move object(s) to a new location.
+		</li>
+<li>
+			<a name="command_open__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/open.html">open</a></strong>
+			 -- Open an object.
+		</li>
+<li>
+			<a name="command_print__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/print.html">print</a></strong>
+			 -- Print an object.
+		</li>
+<li>
+			<a name="command_quit__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/quit.html">quit</a></strong>
+			 -- Quit an application.
+		</li>
+<li>
+			<a name="command_save__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/save.html">save</a></strong>
+			 -- Save an object.
+		</li>
+<li>
+			<a name="command_set__Standard_Suite"></a>
+			<strong><a href="Standard_Suite/commands/set.html">set</a></strong>
+			 -- Set an object's data.
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Text_Suite"></a>
+		Text Suite
+	</h2>
+
+	<p>A set of basic classes for text processing.</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_attachment__Text_Suite"></a>
+			<strong><a href="Text_Suite/classes/attachment.html">attachment</a></strong>
+			 -- Represents an inline text attachment.  This class is used mainly for make commands.
+		</li>
+<li>
+			<a name="class_attributeRun__Text_Suite"></a>
+			<strong><a href="Text_Suite/classes/attributeRun.html">attributeRun</a></strong>
+			 -- This subdivides the text into chunks that all have the same attributes.
+		</li>
+<li>
+			<a name="class_character__Text_Suite"></a>
+			<strong><a href="Text_Suite/classes/character.html">character</a></strong>
+			 -- This subdivides the text into characters.
+		</li>
+<li>
+			<a name="class_paragraph__Text_Suite"></a>
+			<strong><a href="Text_Suite/classes/paragraph.html">paragraph</a></strong>
+			 -- This subdivides the text into paragraphs.
+		</li>
+<li>
+			<a name="class_text__Text_Suite"></a>
+			<strong><a href="Text_Suite/classes/text.html">text</a></strong>
+			 -- Rich (styled) text
+		</li>
+<li>
+			<a name="class_word__Text_Suite"></a>
+			<strong><a href="Text_Suite/classes/word.html">word</a></strong>
+			 -- This subdivides the text into words.
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Appearance_Suite"></a>
+		Appearance Suite
+	</h2>
+
+	<p>Terms for controlling Appearance preferences</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_appearancePreferencesObject__Appearance_Suite"></a>
+			<strong><a href="Appearance_Suite/classes/appearancePreferencesObject.html">appearancePreferencesObject</a></strong>
+			 -- A collection of appearance preferences
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Screen_Saver_Suite"></a>
+		Screen Saver Suite
+	</h2>
+
+	<p>Terms and Events for controlling screen saver settings.</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_screenSaver__Screen_Saver_Suite"></a>
+			<strong><a href="Screen_Saver_Suite/classes/screenSaver.html">screenSaver</a></strong>
+			 -- an installed screen saver
+		</li>
+<li>
+			<a name="class_screenSaverPreferencesObject__Screen_Saver_Suite"></a>
+			<strong><a href="Screen_Saver_Suite/classes/screenSaverPreferencesObject.html">screenSaverPreferencesObject</a></strong>
+			 -- screen saver settings
+		</li>
+		</ul>
+
+	
+
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_start__Screen_Saver_Suite"></a>
+			<strong><a href="Screen_Saver_Suite/commands/start.html">start</a></strong>
+			 -- start the screen saver
+		</li>
+<li>
+			<a name="command_stop__Screen_Saver_Suite"></a>
+			<strong><a href="Screen_Saver_Suite/commands/stop.html">stop</a></strong>
+			 -- stop the screen saver
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_CD_and_DVD_Preferences_Suite"></a>
+		CD and DVD Preferences Suite
+	</h2>
+
+	<p>Terms and Events for controlling the actions when inserting CDs and DVDs</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_CDAndDVDPreferencesObject__CD_and_DVD_Preferences_Suite"></a>
+			<strong><a href="CD_and_DVD_Preferences_Suite/classes/CDAndDVDPreferencesObject.html">CDAndDVDPreferencesObject</a></strong>
+			 -- user's CD and DVD insertion preferences
+		</li>
+<li>
+			<a name="class_insertionPreference__CD_and_DVD_Preferences_Suite"></a>
+			<strong><a href="CD_and_DVD_Preferences_Suite/classes/insertionPreference.html">insertionPreference</a></strong>
+			 -- a specific insertion preference
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Dock_Preferences_Suite"></a>
+		Dock Preferences Suite
+	</h2>
+
+	<p>Terms and Events for controlling the dock preferences</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_dockPreferencesObject__Dock_Preferences_Suite"></a>
+			<strong><a href="Dock_Preferences_Suite/classes/dockPreferencesObject.html">dockPreferencesObject</a></strong>
+			 -- user's dock preferences
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Desktop_Suite"></a>
+		Desktop Suite
+	</h2>
+
+	<p>Terms and Events for controlling the desktop picture settings.</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_desktop__Desktop_Suite"></a>
+			<strong><a href="Desktop_Suite/classes/desktop.html">desktop</a></strong>
+			 -- desktop picture settings
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Accounts_Suite"></a>
+		Accounts Suite
+	</h2>
+
+	<p>Terms and Events for controlling the users account settings</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_user__Accounts_Suite"></a>
+			<strong><a href="Accounts_Suite/classes/user.html">user</a></strong>
+			 -- user account
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Login_Items_Suite"></a>
+		Login Items Suite
+	</h2>
+
+	<p>Terms and Events for controlling the Login Items application</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_loginItem__Login_Items_Suite"></a>
+			<strong><a href="Login_Items_Suite/classes/loginItem.html">loginItem</a></strong>
+			 -- an item to be launched or opened at login
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Audio_File_Suite"></a>
+		Audio File Suite
+	</h2>
+
+	<p>Terms and Events for accessing the content of Audio files</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_audioData__Audio_File_Suite"></a>
+			<strong><a href="Audio_File_Suite/classes/audioData.html">audioData</a></strong>
+			 -- Data in Audio format
+		</li>
+<li>
+			<a name="class_audioFile__Audio_File_Suite"></a>
+			<strong><a href="Audio_File_Suite/classes/audioFile.html">audioFile</a></strong>
+			 -- A file containing data in Audio format
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Disk-Folder-File_Suite"></a>
+		Disk-Folder-File Suite
+	</h2>
+
+	<p>Terms and Events for controlling Disks, Folders, and Files</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_alias__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/alias.html">alias</a></strong>
+			 -- An alias in the file system
+		</li>
+<li>
+			<a name="class_ClassicDomainObject__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/ClassicDomainObject.html">ClassicDomainObject</a></strong>
+			 -- The Classic domain in the file system
+		</li>
+<li>
+			<a name="class_disk__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/disk.html">disk</a></strong>
+			 -- A disk in the file system
+		</li>
+<li>
+			<a name="class_diskItem__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/diskItem.html">diskItem</a></strong>
+			 -- An item stored in the file system
+		</li>
+<li>
+			<a name="class_domain__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/domain.html">domain</a></strong>
+			 -- A domain in the file system
+		</li>
+<li>
+			<a name="class_file__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/file.html">file</a></strong>
+			 -- A file in the file system
+		</li>
+<li>
+			<a name="class_filePackage__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/filePackage.html">filePackage</a></strong>
+			 -- A file package in the file system
+		</li>
+<li>
+			<a name="class_folder__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/folder.html">folder</a></strong>
+			 -- A folder in the file system
+		</li>
+<li>
+			<a name="class_item__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/item.html">item</a></strong>
+			 -- An item stored in the file system
+		</li>
+<li>
+			<a name="class_localDomainObject__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/localDomainObject.html">localDomainObject</a></strong>
+			 -- The local domain in the file system
+		</li>
+<li>
+			<a name="class_networkDomainObject__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/networkDomainObject.html">networkDomainObject</a></strong>
+			 -- The network domain in the file system
+		</li>
+<li>
+			<a name="class_systemDomainObject__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/systemDomainObject.html">systemDomainObject</a></strong>
+			 -- The system domain in the file system
+		</li>
+<li>
+			<a name="class_userDomainObject__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/classes/userDomainObject.html">userDomainObject</a></strong>
+			 -- The user domain in the file system
+		</li>
+		</ul>
+
+	
+
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_delete__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/commands/delete.html">delete</a></strong>
+			 -- Delete disk item(s).
+		</li>
+<li>
+			<a name="command_move__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/commands/move.html">move</a></strong>
+			 -- Move disk item(s) to a new location.
+		</li>
+<li>
+			<a name="command_open__Disk-Folder-File_Suite"></a>
+			<strong><a href="Disk-Folder-File_Suite/commands/open.html">open</a></strong>
+			 -- Open disk item(s) with the appropriate application.
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Folder_Actions_Suite"></a>
+		Folder Actions Suite
+	</h2>
+
+	<p>Terms and Events for controlling Folder Actions</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_folderAction__Folder_Actions_Suite"></a>
+			<strong><a href="Folder_Actions_Suite/classes/folderAction.html">folderAction</a></strong>
+			 -- An action attached to a folder in the file system
+		</li>
+<li>
+			<a name="class_script__Folder_Actions_Suite"></a>
+			<strong><a href="Folder_Actions_Suite/classes/script.html">script</a></strong>
+			 -- A script invoked by a folder action
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Movie_File_Suite"></a>
+		Movie File Suite
+	</h2>
+
+	<p>Terms and Events for accessing the content of Movie files</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_movieData__Movie_File_Suite"></a>
+			<strong><a href="Movie_File_Suite/classes/movieData.html">movieData</a></strong>
+			 -- Data in Movie format
+		</li>
+<li>
+			<a name="class_movieFile__Movie_File_Suite"></a>
+			<strong><a href="Movie_File_Suite/classes/movieFile.html">movieFile</a></strong>
+			 -- A file containing data in Movie format
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Power_Suite"></a>
+		Power Suite
+	</h2>
+
+	<p>Terms and Events for controlling System power</p>
+	
+	
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_logOut__Power_Suite"></a>
+			<strong><a href="Power_Suite/commands/logOut.html">logOut</a></strong>
+			 -- Log out the current user
+		</li>
+<li>
+			<a name="command_restart__Power_Suite"></a>
+			<strong><a href="Power_Suite/commands/restart.html">restart</a></strong>
+			 -- Restart the computer
+		</li>
+<li>
+			<a name="command_shutDown__Power_Suite"></a>
+			<strong><a href="Power_Suite/commands/shutDown.html">shutDown</a></strong>
+			 -- Shut Down the computer
+		</li>
+<li>
+			<a name="command_sleep__Power_Suite"></a>
+			<strong><a href="Power_Suite/commands/sleep.html">sleep</a></strong>
+			 -- Put the computer to sleep
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Processes_Suite"></a>
+		Processes Suite
+	</h2>
+
+	<p>Terms and Events for controlling Processes</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_action__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/action.html">action</a></strong>
+			 -- An action that can be performed on the UI element
+		</li>
+<li>
+			<a name="class_applicationProcess__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/applicationProcess.html">applicationProcess</a></strong>
+			 -- A process launched from an application file
+		</li>
+<li>
+			<a name="class_attribute__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/attribute.html">attribute</a></strong>
+			 -- An named data value associated with the UI element
+		</li>
+<li>
+			<a name="class_browser__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/browser.html">browser</a></strong>
+			 -- A browser belonging to a window
+		</li>
+<li>
+			<a name="class_busyIndicator__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/busyIndicator.html">busyIndicator</a></strong>
+			 -- A busy indicator belonging to a window
+		</li>
+<li>
+			<a name="class_button__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/button.html">button</a></strong>
+			 -- A button belonging to a window or scroll bar
+		</li>
+<li>
+			<a name="class_checkbox__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/checkbox.html">checkbox</a></strong>
+			 -- A checkbox belonging to a window
+		</li>
+<li>
+			<a name="class_colorWell__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/colorWell.html">colorWell</a></strong>
+			 -- A color well belonging to a window
+		</li>
+<li>
+			<a name="class_column__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/column.html">column</a></strong>
+			 -- A column belonging to a table
+		</li>
+<li>
+			<a name="class_comboBox__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/comboBox.html">comboBox</a></strong>
+			 -- A combo box belonging to a window
+		</li>
+<li>
+			<a name="class_deskAccessoryProcess__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/deskAccessoryProcess.html">deskAccessoryProcess</a></strong>
+			 -- A process launched from an desk accessory file
+		</li>
+<li>
+			<a name="class_drawer__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/drawer.html">drawer</a></strong>
+			 -- A drawer that may be extended from a window
+		</li>
+<li>
+			<a name="class_group__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/group.html">group</a></strong>
+			 -- A group belonging to a window
+		</li>
+<li>
+			<a name="class_growArea__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/growArea.html">growArea</a></strong>
+			 -- A grow area belonging to a window
+		</li>
+<li>
+			<a name="class_image__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/image.html">image</a></strong>
+			 -- An image belonging to a static text field
+		</li>
+<li>
+			<a name="class_incrementor__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/incrementor.html">incrementor</a></strong>
+			 -- A incrementor belonging to a window
+		</li>
+<li>
+			<a name="class_list__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/list.html">list</a></strong>
+			 -- A list belonging to a window
+		</li>
+<li>
+			<a name="class_menu__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/menu.html">menu</a></strong>
+			 -- A menu belonging to a menu bar item
+		</li>
+<li>
+			<a name="class_menuBar__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/menuBar.html">menuBar</a></strong>
+			 -- A menu bar belonging to a process
+		</li>
+<li>
+			<a name="class_menuBarItem__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/menuBarItem.html">menuBarItem</a></strong>
+			 -- A menu bar item belonging to a menu bar
+		</li>
+<li>
+			<a name="class_menuButton__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/menuButton.html">menuButton</a></strong>
+			 -- A menu button belonging to a window
+		</li>
+<li>
+			<a name="class_menuItem__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/menuItem.html">menuItem</a></strong>
+			 -- A menu item belonging to a menu
+		</li>
+<li>
+			<a name="class_outline__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/outline.html">outline</a></strong>
+			 -- A outline belonging to a window
+		</li>
+<li>
+			<a name="class_popUpButton__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/popUpButton.html">popUpButton</a></strong>
+			 -- A pop up button belonging to a window
+		</li>
+<li>
+			<a name="class_process__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/process.html">process</a></strong>
+			 -- A process running on this computer
+		</li>
+<li>
+			<a name="class_progressIndicator__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/progressIndicator.html">progressIndicator</a></strong>
+			 -- A progress indicator belonging to a window
+		</li>
+<li>
+			<a name="class_radioButton__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/radioButton.html">radioButton</a></strong>
+			 -- A radio button belonging to a window
+		</li>
+<li>
+			<a name="class_radioGroup__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/radioGroup.html">radioGroup</a></strong>
+			 -- A radio button group belonging to a window
+		</li>
+<li>
+			<a name="class_relevanceIndicator__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/relevanceIndicator.html">relevanceIndicator</a></strong>
+			 -- A relevance indicator belonging to a window
+		</li>
+<li>
+			<a name="class_row__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/row.html">row</a></strong>
+			 -- A row belonging to a table
+		</li>
+<li>
+			<a name="class_scrollArea__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/scrollArea.html">scrollArea</a></strong>
+			 -- A scroll area belonging to a window
+		</li>
+<li>
+			<a name="class_scrollBar__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/scrollBar.html">scrollBar</a></strong>
+			 -- A scroll bar belonging to a window
+		</li>
+<li>
+			<a name="class_sheet__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/sheet.html">sheet</a></strong>
+			 -- A sheet displayed over a window
+		</li>
+<li>
+			<a name="class_slider__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/slider.html">slider</a></strong>
+			 -- A slider belonging to a window
+		</li>
+<li>
+			<a name="class_splitter__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/splitter.html">splitter</a></strong>
+			 -- A splitter belonging to a window
+		</li>
+<li>
+			<a name="class_splitterGroup__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/splitterGroup.html">splitterGroup</a></strong>
+			 -- A splitter group belonging to a window
+		</li>
+<li>
+			<a name="class_staticText__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/staticText.html">staticText</a></strong>
+			 -- A static text field belonging to a window
+		</li>
+<li>
+			<a name="class_tabGroup__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/tabGroup.html">tabGroup</a></strong>
+			 -- A tab group belonging to a window
+		</li>
+<li>
+			<a name="class_table__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/table.html">table</a></strong>
+			 -- A table belonging to a window
+		</li>
+<li>
+			<a name="class_textArea__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/textArea.html">textArea</a></strong>
+			 -- A text area belonging to a window
+		</li>
+<li>
+			<a name="class_textField__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/textField.html">textField</a></strong>
+			 -- A text field belonging to a window
+		</li>
+<li>
+			<a name="class_toolBar__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/toolBar.html">toolBar</a></strong>
+			 -- A tool bar belonging to a window
+		</li>
+<li>
+			<a name="class_UIElement__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/UIElement.html">UIElement</a></strong>
+			 -- A piece of the user interface of a process
+		</li>
+<li>
+			<a name="class_valueIndicator__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/valueIndicator.html">valueIndicator</a></strong>
+			 -- A value indicator ( thumb or slider ) belonging to a scroll bar
+		</li>
+<li>
+			<a name="class_window__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/classes/window.html">window</a></strong>
+			 -- A window belonging to a process
+		</li>
+		</ul>
+
+	
+
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_click__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/commands/click.html">click</a></strong>
+			 -- cause the target process to behave as if the UI element were clicked
+		</li>
+<li>
+			<a name="command_keyCode__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/commands/keyCode.html">keyCode</a></strong>
+			 -- cause the target process to behave as if key codes were entered
+		</li>
+<li>
+			<a name="command_keystroke__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/commands/keystroke.html">keystroke</a></strong>
+			 -- cause the target process to behave as if keystrokes were entered
+		</li>
+<li>
+			<a name="command_perform__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/commands/perform.html">perform</a></strong>
+			 -- cause the target process to behave as if the action were applied to its UI element
+		</li>
+<li>
+			<a name="command_select__Processes_Suite"></a>
+			<strong><a href="Processes_Suite/commands/select.html">select</a></strong>
+			 -- set the selected property of the UI element
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Property_List_Suite"></a>
+		Property List Suite
+	</h2>
+
+	<p>Terms and Events for accessing the content of Property List files</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_propertyListFile__Property_List_Suite"></a>
+			<strong><a href="Property_List_Suite/classes/propertyListFile.html">propertyListFile</a></strong>
+			 -- A file containing data in Property List format
+		</li>
+<li>
+			<a name="class_propertyListItem__Property_List_Suite"></a>
+			<strong><a href="Property_List_Suite/classes/propertyListItem.html">propertyListItem</a></strong>
+			 -- A unit of data in Property List format
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_QuickTime_File_Suite"></a>
+		QuickTime File Suite
+	</h2>
+
+	<p>Terms and Events for accessing the content of QuickTime files</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_annotation__QuickTime_File_Suite"></a>
+			<strong><a href="QuickTime_File_Suite/classes/annotation.html">annotation</a></strong>
+			 -- A unit of user data in a QuickTime file
+		</li>
+<li>
+			<a name="class_QuickTimeData__QuickTime_File_Suite"></a>
+			<strong><a href="QuickTime_File_Suite/classes/QuickTimeData.html">QuickTimeData</a></strong>
+			 -- Data in QuickTime format
+		</li>
+<li>
+			<a name="class_QuickTimeFile__QuickTime_File_Suite"></a>
+			<strong><a href="QuickTime_File_Suite/classes/QuickTimeFile.html">QuickTimeFile</a></strong>
+			 -- A file containing data in QuickTime format
+		</li>
+<li>
+			<a name="class_track__QuickTime_File_Suite"></a>
+			<strong><a href="QuickTime_File_Suite/classes/track.html">track</a></strong>
+			 -- A track in a QuickTime file
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_System_Events_Suite"></a>
+		System Events Suite
+	</h2>
+
+	<p>Terms and Events for controlling the System Events application</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_application__System_Events_Suite"></a>
+			<strong><a href="System_Events_Suite/classes/application.html">application</a></strong>
+			 -- The System Events application
+		</li>
+		</ul>
+
+	
+
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_abortTransaction___System_Events_Suite"></a>
+			<strong><a href="System_Events_Suite/commands/abortTransaction_.html">abortTransaction_</a></strong>
+			 -- Discard the results of a bounded update session with one or more files.
+		</li>
+<li>
+			<a name="command_beginTransaction___System_Events_Suite"></a>
+			<strong><a href="System_Events_Suite/commands/beginTransaction_.html">beginTransaction_</a></strong>
+			 -- Begin a bounded update session with one or more files.
+		</li>
+<li>
+			<a name="command_endTransaction___System_Events_Suite"></a>
+			<strong><a href="System_Events_Suite/commands/endTransaction_.html">endTransaction_</a></strong>
+			 -- Apply the results of a bounded update session with one or more files.
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_XML_Suite"></a>
+		XML Suite
+	</h2>
+
+	<p>Terms and Events for accessing the content of XML files</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_XMLAttribute__XML_Suite"></a>
+			<strong><a href="XML_Suite/classes/XMLAttribute.html">XMLAttribute</a></strong>
+			 -- A named value associated with a unit of data in XML format
+		</li>
+<li>
+			<a name="class_XMLData__XML_Suite"></a>
+			<strong><a href="XML_Suite/classes/XMLData.html">XMLData</a></strong>
+			 -- Data in XML format
+		</li>
+<li>
+			<a name="class_XMLElement__XML_Suite"></a>
+			<strong><a href="XML_Suite/classes/XMLElement.html">XMLElement</a></strong>
+			 -- A unit of data in XML format
+		</li>
+<li>
+			<a name="class_XMLFile__XML_Suite"></a>
+			<strong><a href="XML_Suite/classes/XMLFile.html">XMLFile</a></strong>
+			 -- A file containing data in XML format
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Network_Preferences_Suite"></a>
+		Network Preferences Suite
+	</h2>
+
+	<p>Terms and Commands for manipulating and viewing network settings</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_configuration__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/classes/configuration.html">configuration</a></strong>
+			 -- A collection of settings for configuring a connection
+		</li>
+<li>
+			<a name="class_interface__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/classes/interface.html">interface</a></strong>
+			 -- A collection of settings for a network interface
+		</li>
+<li>
+			<a name="class_location__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/classes/location.html">location</a></strong>
+			 -- A set of services
+		</li>
+<li>
+			<a name="class_networkPreferencesObject__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/classes/networkPreferencesObject.html">networkPreferencesObject</a></strong>
+			 -- the preferences for the current user's network
+		</li>
+<li>
+			<a name="class_service__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/classes/service.html">service</a></strong>
+			 -- A collection of settings for a network service
+		</li>
+		</ul>
+
+	
+
+
+		<h3>Commands</h3>
+
+		<ul>
+		<li>
+			<a name="command_connect__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/commands/connect.html">connect</a></strong>
+			 -- connect a configuration or service
+		</li>
+<li>
+			<a name="command_disconnect__Network_Preferences_Suite"></a>
+			<strong><a href="Network_Preferences_Suite/commands/disconnect.html">disconnect</a></strong>
+			 -- disconnect a configuration or service
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Security_Suite"></a>
+		Security Suite
+	</h2>
+
+	<p>Terms for controlling Security preferences</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_securityPreferencesObject__Security_Suite"></a>
+			<strong><a href="Security_Suite/classes/securityPreferencesObject.html">securityPreferencesObject</a></strong>
+			 -- a collection of security preferences
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Expose_Preferences_Suite"></a>
+		Expose Preferences Suite
+	</h2>
+
+	<p>Terms and Events for controlling the Exposé and Dashboard preferences</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_exposePreferencesObject__Expose_Preferences_Suite"></a>
+			<strong><a href="Expose_Preferences_Suite/classes/exposePreferencesObject.html">exposePreferencesObject</a></strong>
+			 -- user's expose and dashboard mouse and key preferences
+		</li>
+<li>
+			<a name="class_screenCorner__Expose_Preferences_Suite"></a>
+			<strong><a href="Expose_Preferences_Suite/classes/screenCorner.html">screenCorner</a></strong>
+			 -- a screen corner location for a specific expose or dashboard feature
+		</li>
+<li>
+			<a name="class_shortcut__Expose_Preferences_Suite"></a>
+			<strong><a href="Expose_Preferences_Suite/classes/shortcut.html">shortcut</a></strong>
+			 -- a keyboard or mouse shortcut for a specific expose or dashboard feature
+		</li>
+<li>
+			<a name="class_spacesPreferencesObject__Expose_Preferences_Suite"></a>
+			<strong><a href="Expose_Preferences_Suite/classes/spacesPreferencesObject.html">spacesPreferencesObject</a></strong>
+			 -- user's spaces application bindings and navigation preferences
+		</li>
+<li>
+			<a name="class_spacesShortcut__Expose_Preferences_Suite"></a>
+			<strong><a href="Expose_Preferences_Suite/classes/spacesShortcut.html">spacesShortcut</a></strong>
+			 -- The keyboard modifiers for a specific spaces navigation shortcut
+		</li>
+		</ul>
+
+	
+
+
+
+	<h2>
+		<a name="suite_Type_Definitions"></a>
+		Type Definitions
+	</h2>
+
+	<p>Records used in scripting Eventi di sistema</p>
+	
+	
+
+		<h3>Classes</h3>
+
+		<ul>
+		<li>
+			<a name="class_printSettings__Type_Definitions"></a>
+			<strong><a href="Type_Definitions/classes/printSettings.html">printSettings</a></strong>
+			
+		</li>
+		</ul>
+
+	
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>item</title>
+	<style type="text/css" media="all"><!--@import url(../../main.css);--></style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base target="main" />
+</head>
+<body>
+
+<h1><sup>Class</sup> item</h1>
+
+<div id="view"><a href="../../Disk-Folder-File_Suite/classes/item.html">reduce</a></div>
+
+
+<div id="content">
+
+<h2>Description</h2>
+
+<p>An item stored in the file system</p>
+
+<ul class="desc">
+	<li>Plural name:
+		<ul>
+			<li><strong>items</strong></li>
+		</ul>
+	</li>
+	<li>Defined in:
+		<ul>
+			<li><em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em></li>
+<li><em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em></li>
+		</ul>
+	</li>
+	
+	<li>Inherits from:
+		<ul>
+			<li>
+				
+					<strong><a href="../../FULL/classes/item.html">item</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				
+				
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+	<h2>Properties</h2>
+	<ul>
+		<li>
+			<strong>class_</strong>
+			(r/o)
+			<em>typeClass</em>
+			 -- The class of the object.
+		</li>
+<li>
+			<strong>properties</strong>
+			
+			<em>record</em>
+			 -- All of the object's properties.
+		</li>
+<li>
+			<strong>id_</strong>
+			(r/o)
+			<em>unicodeText</em>
+			 -- the unique ID of the item
+		</li>
+<li>
+			<strong>name</strong>
+			
+			<em>unicodeText</em>
+			 -- the name of the item
+		</li>
+	</ul>
+
+
+
+
+
+	<h2>Notes</h2>
+	
+	<ul class="desc">
+		<li>Inherited by:
+			<ul>
+				<li>
+					<strong><a href="../../FULL/classes/application.html">application</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/color.html">color</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/document.html">document</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/window.html">window</a></strong>
+					(<em><a href="../../index.html#suite_Standard_Suite">Standard Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/attributeRun.html">attributeRun</a></strong>
+					(<em><a href="../../index.html#suite_Text_Suite">Text Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/character.html">character</a></strong>
+					(<em><a href="../../index.html#suite_Text_Suite">Text Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/paragraph.html">paragraph</a></strong>
+					(<em><a href="../../index.html#suite_Text_Suite">Text Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/text.html">text</a></strong>
+					(<em><a href="../../index.html#suite_Text_Suite">Text Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/word.html">word</a></strong>
+					(<em><a href="../../index.html#suite_Text_Suite">Text Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/appearancePreferencesObject.html">appearancePreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Appearance_Suite">Appearance Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/screenSaver.html">screenSaver</a></strong>
+					(<em><a href="../../index.html#suite_Screen_Saver_Suite">Screen Saver Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/screenSaverPreferencesObject.html">screenSaverPreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Screen_Saver_Suite">Screen Saver Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/CDAndDVDPreferencesObject.html">CDAndDVDPreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_CD_and_DVD_Preferences_Suite">CD and DVD Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/insertionPreference.html">insertionPreference</a></strong>
+					(<em><a href="../../index.html#suite_CD_and_DVD_Preferences_Suite">CD and DVD Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/dockPreferencesObject.html">dockPreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Dock_Preferences_Suite">Dock Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/desktop.html">desktop</a></strong>
+					(<em><a href="../../index.html#suite_Desktop_Suite">Desktop Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/user.html">user</a></strong>
+					(<em><a href="../../index.html#suite_Accounts_Suite">Accounts Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/loginItem.html">loginItem</a></strong>
+					(<em><a href="../../index.html#suite_Login_Items_Suite">Login Items Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/diskItem.html">diskItem</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/domain.html">domain</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/folderAction.html">folderAction</a></strong>
+					(<em><a href="../../index.html#suite_Folder_Actions_Suite">Folder Actions Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/script.html">script</a></strong>
+					(<em><a href="../../index.html#suite_Folder_Actions_Suite">Folder Actions Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/action.html">action</a></strong>
+					(<em><a href="../../index.html#suite_Processes_Suite">Processes Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/attribute.html">attribute</a></strong>
+					(<em><a href="../../index.html#suite_Processes_Suite">Processes Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/UIElement.html">UIElement</a></strong>
+					(<em><a href="../../index.html#suite_Processes_Suite">Processes Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/propertyListItem.html">propertyListItem</a></strong>
+					(<em><a href="../../index.html#suite_Property_List_Suite">Property List Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/annotation.html">annotation</a></strong>
+					(<em><a href="../../index.html#suite_QuickTime_File_Suite">QuickTime File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/QuickTimeData.html">QuickTimeData</a></strong>
+					(<em><a href="../../index.html#suite_QuickTime_File_Suite">QuickTime File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/track.html">track</a></strong>
+					(<em><a href="../../index.html#suite_QuickTime_File_Suite">QuickTime File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/XMLAttribute.html">XMLAttribute</a></strong>
+					(<em><a href="../../index.html#suite_XML_Suite">XML Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/XMLData.html">XMLData</a></strong>
+					(<em><a href="../../index.html#suite_XML_Suite">XML Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/XMLElement.html">XMLElement</a></strong>
+					(<em><a href="../../index.html#suite_XML_Suite">XML Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/configuration.html">configuration</a></strong>
+					(<em><a href="../../index.html#suite_Network_Preferences_Suite">Network Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/interface.html">interface</a></strong>
+					(<em><a href="../../index.html#suite_Network_Preferences_Suite">Network Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/location.html">location</a></strong>
+					(<em><a href="../../index.html#suite_Network_Preferences_Suite">Network Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/networkPreferencesObject.html">networkPreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Network_Preferences_Suite">Network Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/service.html">service</a></strong>
+					(<em><a href="../../index.html#suite_Network_Preferences_Suite">Network Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/securityPreferencesObject.html">securityPreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Security_Suite">Security Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/exposePreferencesObject.html">exposePreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/screenCorner.html">screenCorner</a></strong>
+					(<em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/shortcut.html">shortcut</a></strong>
+					(<em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/spacesPreferencesObject.html">spacesPreferencesObject</a></strong>
+					(<em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/spacesShortcut.html">spacesShortcut</a></strong>
+					(<em><a href="../../index.html#suite_Expose_Preferences_Suite">Expose Preferences Suite</a></em>)
+				</li>
+			</ul>
+		</li>
+<li>Contained by:
+			<ul>
+				<li>
+					<strong><a href="../../FULL/classes/alias.html">alias</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/application.html">application</a></strong>
+					(<em><a href="../../index.html#suite_System_Events_Suite">System Events Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/disk.html">disk</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/filePackage.html">filePackage</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				</li>
+<li>
+					<strong><a href="../../FULL/classes/folder.html">folder</a></strong>
+					(<em><a href="../../index.html#suite_Disk-Folder-File_Suite">Disk-Folder-File Suite</a></em>)
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+
+</body>
+</html>
